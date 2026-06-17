@@ -2,6 +2,7 @@
 The project requires a Python environment with the torch, numpy, pandas, scikit-learn, matplotlib, and tqdm libraries, which are listed in requirements.txt and used in all key pipeline modules.
 
 The expected directory structure is as follows:
+
 ![img_1.png](img_1.png)
 
 The data_root passed to run.py must point to the directory containing both Clinic_DataPDBioStampRCStudy.csv and the FullDataSet_PD-BioStampRC21 folder.
