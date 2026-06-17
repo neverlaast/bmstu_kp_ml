@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IDE (WebStorm, PHPStorm, PyCharm и т.д.)
+.idea/
+
+# macOS
+.DS_Store
