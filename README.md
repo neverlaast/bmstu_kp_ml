@@ -64,16 +64,9 @@ SVM is slightly better on balanced accuracy (+3.4 p.p.), which matters under cla
 
 Averaging over windows smooths noise and noticeably improves subject-level separation.
 
-<p>
-  <img src="pd_project/figures_test/roc_curve.png" width="32%">
-  <img src="pd_project/figures_test/cm_patient.png" width="32%">
-  <img src="pd_project/figures_test/patient_bars.png" width="32%">
-</p>
-
 ---
 
 ## Limitations
-- Small cohorts: the Task 2 test set has only 7 patients, so the metrics have high variance.
 - Class imbalance, handled with class weights and balanced metrics.
 - The tasks use different datasets and sensors, so their metrics are not directly comparable. On small datasets, interpretable hand-crafted features remain a strong baseline compared to end-to-end networks.
 
